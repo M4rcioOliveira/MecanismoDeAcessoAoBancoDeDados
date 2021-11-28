@@ -1,0 +1,105 @@
+﻿
+#divTopo {
+    margin-top: -26px;
+    background-color: black;
+    width: 100%;
+}
+
+#divLocalPage {
+    width: 100%;
+    background-color: #35B729;
+    height: 110px;
+}
+
+#divLocalPageText {
+    float: left;
+    color: white;
+    margin-left: 150px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#divTable {
+    margin-top: 65px;
+}
+
+#inputPesquisa {
+    margin-left: 150px;
+    margin-top: 40px;
+    width: 230px;
+    height: 25px;
+}
+
+#btnAlterar {
+    background-image: url("../imagens/editar.png");
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border-style: none;
+}
+
+#btnExcluir {
+    background-image: url("../imagens/lixeira.png");
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border-style: none;
+}
+
+#divImg {
+    position: relative;
+    float: left;
+    margin-top: 25px;
+    margin-left: 22%;
+    height: 350px;
+}
+
+#divForm {
+    float: right;
+    margin-top: 25px;
+    margin-right: 22%;
+    height: 350px;
+}
+
+#divBtn {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#form {
+    padding: 10px;
+    border-style: inset;
+    border-radius: 20px;
+}
+
+.mb-3 {
+    padding: 5px;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+#inputEntradaDados {
+    float: right;
+    margin-left: 8px;
+}
+
+#btnCadastrar {
+    background-color: rgb(121, 235, 223);
+}
